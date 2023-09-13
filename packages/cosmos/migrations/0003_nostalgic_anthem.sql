@@ -1,0 +1,1 @@
+ALTER TABLE "crm_company" ALTER COLUMN "user_id" SET NOT NULL;

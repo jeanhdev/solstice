@@ -1,0 +1,1 @@
+ALTER TABLE "users" ALTER COLUMN "company_website_hostname" SET NOT NULL;

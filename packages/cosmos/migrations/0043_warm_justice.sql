@@ -1,0 +1,2 @@
+ALTER TABLE "attribution_performance_daily" ALTER COLUMN "weight" SET DATA TYPE numeric(5, 4);
+CREATE UNIQUE INDEX IF NOT EXISTS "user_id_attribution_model_id_channel_id_journey_id_visitor_session_id_index" ON "attribution_performance_daily" ("user_id","attribution_model_id","channel_id","journey_id","visitor_session_id");

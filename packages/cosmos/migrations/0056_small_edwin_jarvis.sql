@@ -1,0 +1,1 @@
+DROP INDEX IF EXISTS "journey_id_attribution_model_id_index";

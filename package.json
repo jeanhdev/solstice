@@ -1,0 +1,30 @@
+{
+  "name": "galaxy",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "pulsar": "esr apps/pulsar/index.ts",
+    "db:seed": "cd packages/cosmos && pnpm run db:seed && cd ../..",
+    "db:migrate": "cd packages/cosmos && pnpm run db:migration:generate && pnpm run db:migration:deploy && cd ../.."
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@types/pg": "^8.6.6",
+    "drizzle-kit": "^0.17.5",
+    "eslint": "^7.32.0",
+    "prettier": "^2.8.7",
+    "turbo": "latest"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.25.4",
+    "drizzle-zod": "^0.4.1",
+    "pg": "^8.10.0",
+    "postgres": "^3.3.4",
+    "zod": "^3.21.4"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

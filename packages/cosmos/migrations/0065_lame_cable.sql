@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "key_index" ON "attribution_models" ("attribution_model_key");

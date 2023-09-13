@@ -1,0 +1,1 @@
+ALTER TABLE "channels" ADD COLUMN "utm_source" varchar DEFAULT 'remove this default value' NOT NULL;

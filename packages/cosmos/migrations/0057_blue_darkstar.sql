@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "journey_id_attribution_model_id_index" ON "journeys_to_attribution_models" ("journey_id","attribution_model_id");

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX IF NOT EXISTS "id_journeys_id_index" ON "crm_company" ("id","journey_id");
