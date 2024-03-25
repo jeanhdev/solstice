@@ -1,0 +1,1 @@
+ALTER TABLE "channels" ALTER COLUMN "utm_source" DROP DEFAULT;

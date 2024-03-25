@@ -1,0 +1,1 @@
+ALTER TABLE "attribution_performance_daily" ADD COLUMN "weight" numeric(10, 2) NOT NULL;

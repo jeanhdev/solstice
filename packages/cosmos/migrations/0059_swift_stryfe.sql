@@ -1,0 +1,1 @@
+ALTER TABLE "journeys_to_attribution_models" ALTER COLUMN "attributed_revenue_margin_of_error" SET DATA TYPE numeric(5, 4);

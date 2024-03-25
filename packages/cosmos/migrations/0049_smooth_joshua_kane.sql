@@ -1,0 +1,1 @@
+ALTER TABLE "journeys_to_crm_deals" ADD COLUMN "is_attribution_computed" boolean NOT NULL;

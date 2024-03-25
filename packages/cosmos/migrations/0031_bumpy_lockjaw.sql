@@ -1,0 +1,1 @@
+ALTER TABLE "pipeline_runs" ALTER COLUMN "pulsar_run_id" SET NOT NULL;

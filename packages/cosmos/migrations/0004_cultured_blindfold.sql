@@ -1,0 +1,1 @@
+ALTER TABLE "crm_deals" ADD COLUMN "archived" boolean;

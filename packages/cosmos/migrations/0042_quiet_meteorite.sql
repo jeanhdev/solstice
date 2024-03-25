@@ -1,0 +1,1 @@
+ALTER TABLE "attribution_performance_daily" ALTER COLUMN "weight" SET DATA TYPE numeric(4, 2);

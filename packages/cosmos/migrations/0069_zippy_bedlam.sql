@@ -1,0 +1,1 @@
+ALTER TABLE "users" ALTER COLUMN "is_onboarded" SET NOT NULL;
